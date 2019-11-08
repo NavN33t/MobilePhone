@@ -1,0 +1,67 @@
+h1,h2,h3,h4{
+    font-family: cursive;
+    font-size: 30px;
+}
+
+
+.p1
+{
+    padding: 25px;
+}
+
+.navbar-brand
+{
+    font-family: serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+legend
+{
+    font-family: serif;
+}
+body
+{
+  font-family: "cursive", Arial, sans-serif;
+  color:black;
+ /* background-color:azure;*/
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+    background-image:url(../images/c.jpg);
+    background-size: cover;
+    
+}
+.nav {
+  list-style-type: none;
+  margin: 5px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #666699;
+}
+a li {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+a li:hover:not(.active) {
+  background-color: azure;
+}
+
+.active {
+  background-color:azure;
+}
+ul {
+  overflow: hidden;
+}
+li.nav-item
+{
+    text-decoration: none;
+    list-style: none;
+}
+button.navbar-toggler .navbar-toggler-right
+{
+    text-decoration: none;
+}

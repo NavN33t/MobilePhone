@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title= title
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/font-awesome.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    block navBar
+        
+            ul.nav
+                a(href="/")
+                    li Home
+                a(href="mobile")
+                    li Mobile Phones
+                a(href="about")
+                    li About
+
+   
+    block content
+   
